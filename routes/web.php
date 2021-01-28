@@ -17,3 +17,7 @@ use App\Http\Controllers\PostsController;
 Route::get('/', function() {
     return view('welcome');
 });
+
+Route::get('/expense', function() {
+    return view('expense');
+});
